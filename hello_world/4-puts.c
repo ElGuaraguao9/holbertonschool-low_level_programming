@@ -1,5 +1,5 @@
 #include <stdio.h>
-/**
+/*
  *Print a message
  */
 int main (void)
