@@ -6,22 +6,11 @@
  */
 int main(void)
 {
-char a = '_';
-char b = 'p';
-char c = 'u';
-char d = 't';
-char e = 'c';
-char x = 'h';
-char y = 'a';
-char z = 'r';
-putchar(a);
-putchar(b);
-putchar(c);
-putchar(d);
-putchar(e);
-putchar(x);
-putchar(y);
-putchar(z);
+char str[] = "_putchar";  
+for (int i = 0; str[i] != '\0'; i++)
+{
+putchar(str[i]);
+}
 putchar('\n');
-return (0);
+return 0;
 }
