@@ -6,15 +6,12 @@
 */
 int _isupper(int c)
 {
-if (c >= 'A' && c <= 'Z')
+if (c >= 65 && c <= 90)
 {
-_putchar(c);
-_putchar(58);
-_putchar(32);
 return (1);
 }
-_putchar(c);
-_putchar(58);
-_putchar(32);
+else
+{
 return (0);
+}
 }
