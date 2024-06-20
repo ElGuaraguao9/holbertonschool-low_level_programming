@@ -4,7 +4,7 @@
  * _isupper - checks
  * Return: 1 if c is uppercase, 0 otherwise
  */
-int _supper(int c)
+int _isupper(int c)
 {
-    return(c >= 'A' && c <='Z');
+return(c >= 'A' && c <='Z');
 }
