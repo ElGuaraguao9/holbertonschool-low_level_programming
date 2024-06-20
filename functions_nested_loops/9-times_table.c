@@ -20,7 +20,7 @@ _putchar(44);
 _putchar(32);
 _putchar(32);
 _putchar(c + '0');
-} 
+}
 else if (c >= 10)
 {
 _putchar(44);
