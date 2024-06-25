@@ -4,7 +4,6 @@
 * @s: tested string
 * return: total legth
 */
-
 int _strlen(char *s)
 {
 int cua;
